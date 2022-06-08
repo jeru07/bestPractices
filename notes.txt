@@ -89,11 +89,25 @@ q12. When to use interfaces ?
 	   - specify the behaviour of a particular data type, but not concerned about who implements its behaviour.
 	   
 q13. When to use abstract classes ?
-       -
+       -if you want to provide a common, implemented functionality among all the implementations of an Interface. 
+	   Abstract classes will allow you to partially implement your class.
+	   
 q14. Can a class have only private constructors ?
-
+      YES
+	  check ScoreBoard.java
+	  
 q15. How to create objects for classes with private constructors ?
+      With the help of factory methods
+	  A factory method is a static method that creates a new Object and returns it.
+        Refer ScoreBoard.java createObject() method.
+		private constructors cannot be called from outside the class but another method from within the same class.
+		The factory method is implemented in the class that has the private constructors.
+		so the factory method can call the private constructors.
+		To call the factory method from outside the class without an Object reference the factory method must be static.
+		
 q16. What is de-coupling ?
+      
+
 q17. What is cohesiveness between objects?
 q18. Explain "has-a" and "is-a" relationship between objects with examples ?
 q19. What do you mean by Single Responsibility Principle ?
