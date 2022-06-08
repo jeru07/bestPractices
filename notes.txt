@@ -138,6 +138,8 @@ q18. Explain "has-a" and "is-a" relationship between objects with examples ?
 	       Vehicle is a parent class. Car inherits from Vehicle
 	       
 q19. What do you mean by Single Responsibility Principle ?
-             
+             Every class, module, or function in a program should have one responsibility/purpose in a program. As a commonly used definition, "every class should have only one reason to change".
+             Refer srp package
 q20. What is Dependency Injection / Inversion of control (DI/IOC) ?
+              
         Refer Decoupled package Car.java
